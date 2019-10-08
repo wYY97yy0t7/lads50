@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdio.h>
+#include <math.h>
+int main(void)
+{
+float a,x,g,f,y;
+printf("Vvedite x: ");
+scanf ("%f", &x);
+printf("Vvedite a ");
+scanf ("%f", &a);
+g=8*(7*a*a-61*a*x+40*x*x)/(18*a*a+11*a*x+x*x);
+printf("g=%f\n\n", g);
+
+printf("Vvedite x ");
+scanf ("%f", &x);
+printf("Vvedite a ");
+scanf ("%f", &a);
+f=1/cos(9*a*a-14*a*x+5*x*x);
+printf("f=%f\n\n", f);
+
+printf("Vvedite x ");
+scanf ("%f", &x);
+printf("Vvedite a ");
+scanf ("%f", &a);
+y=-atan(6*a*a+5*a*x+x*x);
+printf("y=%f\n\n", y);
+}
